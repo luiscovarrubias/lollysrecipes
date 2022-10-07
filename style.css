@@ -2,7 +2,7 @@
 header {
 
 	padding: 10px 0;
-	background: #f3e5ab;
+	background: #e69cf0;
 }
 header::after {
 	content: '';
@@ -60,7 +60,7 @@ nav a:hover::before {
 /*index*/
 body {
 	font-family: Verdana, sans-serif;
-	background-color: #fffcec
+	background-color: #e7dce8
 }
 
 h1 {
