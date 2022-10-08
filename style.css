@@ -1,4 +1,4 @@
-/*navbar below*/
+/*navbar*/
 header {
 
 	padding: 10px 0;
@@ -57,16 +57,10 @@ nav a:hover::before {
 
 
 
-/*index*/
+/*all pages*/
 body {
 	font-family: Verdana, sans-serif;
 	background-color: #e7dce8
-}
-
-h1 {
-
-	text-align: center;
-	font-size: 35px;
 }
 
 .container {
