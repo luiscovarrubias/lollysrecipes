@@ -10,7 +10,7 @@ header::after {
 	clear: both;
 }
 nav {
-	
+	width: 100%;
 	text-align: center;
 }
 nav ul {
