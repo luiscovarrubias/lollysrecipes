@@ -67,7 +67,7 @@ body {
 }
 
 .container {
-
+	text-align: center;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -78,6 +78,6 @@ p {
 }
 
 .page {
-	text-align: center;
+	text-align: left;
 	
 }
