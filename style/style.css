@@ -139,7 +139,7 @@ body {
 }
 .card:hover{
 	text-decoration: underline;
-	box-shadow: 4px 4px 15px black;
+	box-shadow: none;
 }
 .image img{
 	width: 25%;
@@ -149,10 +149,10 @@ body {
 .title{
 	display: flex;
 	text-align: left;
-	padding: 20px 0 0 30px;
+	padding: 20px 30px 45px 30px;
 }
 .cards hr{
-	height:2px;
+	height:1px;
 	border-width:0;
 	color:#999;
 	background-color:#999;
@@ -176,6 +176,9 @@ body {
 		box-shadow: 2px 2px 10px black;
 		border-radius: 5px;
 	}
+	.card:hover{
+		box-shadow: 4px 4px 15px black;
+	}
 	.image img{
 		float: none;
 		width: 100%;
@@ -186,7 +189,7 @@ body {
 	.title{
 		display: inline;
 		line-height: 1.5;
-		padding: 0;
+		padding: 5px 0 5px 0;
 		margin: 0;
 		text-align: center;
 		text-decoration: none;
