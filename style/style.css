@@ -55,6 +55,24 @@ nav a:hover::before {
 	width: 100%;
 	margin: auto;
 }
+.banner img{
+	cursor: pointer;
+	width: 290px;
+	height: 140px;
+}
+@media only screen and (max-width: 476px){
+	nav li{
+		margin: 10px 7px 0px 7px;
+		font-weight: 800;
+	}
+	nav{
+
+	}
+	.banner img{
+		width: 50%;
+		height: 50%;
+	}
+}
 
 
 
@@ -107,17 +125,41 @@ body {
 /*main pages*/
 
 .cards{
+	padding: 10px 20px 0 20px;
 	display: inline-block;
 }
-.image img{
-	display: none;
+.card{
+	cursor: pointer;
+	margin: 10px 0 10px 0;
+	display:inline-block;
 }
-.title a{
+.card a{
 	text-decoration: none;
 	color: #000;
 }
+.card:hover{
+	text-decoration: underline;
+	box-shadow: 4px 4px 15px black;
+}
+.image img{
+	width: 25%;
+	height: 25%;
+	float: left;
+}
+.title{
+	display: flex;
+	text-align: left;
+	padding: 20px 0 0 30px;
+}
+.cards hr{
+	height:2px;
+	border-width:0;
+	color:#999;
+	background-color:#999;
+}
 @media only screen and (min-width: 440px){
 	.cards{
+		padding: 10px;
 		margin: 0 auto;
 		max-width: 1000px;
 		display: grid;
@@ -125,20 +167,22 @@ body {
 		gap: 20px;
 		padding-top: 20px;
 	}
+	.cards hr{
+		display: none;
+	}
 	.card{
 		box-shadow: 2px 2px 10px black;
 		border-radius: 5px;
 	}
-	.card:hover{
-		text-decoration: underline;
-	}
 	.image img{
+		float: none;
 		width: 100%;
 		display: block;
 		border-top-left-radius: 5px;
 		border-top-right-radius: 5px;
 	}
 	.title{
+		display: inline;
 		line-height: 1.5;
 		padding: 0;
 		margin: 0;
@@ -159,7 +203,7 @@ body {
 }
 .main p {
 	font-size: 16px;
-	padding: 10px 10px 0px 10px;
+	padding: 10px 10px 10px 10px;
 }
 
 
