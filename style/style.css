@@ -149,7 +149,7 @@ body {
 .title{
 	display: flex;
 	text-align: left;
-	padding: 20px 30px 45px 30px;
+	padding: 30px 10px;
 }
 .cards hr{
 	height:1px;
@@ -188,8 +188,7 @@ body {
 	}
 	.title{
 		display: inline;
-		line-height: 1.5;
-		padding: 5px 0 5px 0;
+		padding: 5px 0;
 		margin: 0;
 		text-align: center;
 		text-decoration: none;
