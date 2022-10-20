@@ -149,7 +149,7 @@ body {
 .title{
 	display: flex;
 	text-align: left;
-	padding: 30px 10px;
+	padding: 31px 0 31px 18px;
 }
 .cards hr{
 	height:1px;
@@ -193,6 +193,10 @@ body {
 		text-align: center;
 		text-decoration: none;
 		color:#000;
+	}
+	.title h3{
+		padding: 10px 0;
+		font-size: large;
 	}
 }
 
