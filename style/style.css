@@ -84,9 +84,12 @@ nav a:hover::before {
 
 
 /*all pages*/
+.inner-wrap {
+	padding:2.5em constant(safe-area-inset-right) 2.5em constant(safe-area-inset-left);
+}
 .elem {
-	padding-right: env(safe-area-inset-right, 44px);
-	padding-left: env(safe-area-inset-left, 44px);
+	padding-right: env(safe-area-inset-right);
+	padding-left: env(safe-area-inset-left);
 }
 *{
 	padding: 0;
