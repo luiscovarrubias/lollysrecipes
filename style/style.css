@@ -1,5 +1,7 @@
 /*navbar*/
 header {
+	height: 100%;
+	width: 100%;
 	padding: 10px 0;
 	background: #e69cf0;
 }
