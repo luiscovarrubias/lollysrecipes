@@ -1,7 +1,5 @@
 /*navbar*/
 header {
-	height: 100%;
-	width: 100%;
 	padding: 10px 0;
 	background: #e69cf0;
 }
@@ -59,8 +57,8 @@ nav a:hover::before {
 }
 .banner img{
 	cursor: pointer;
-	width: 250px;
-	height: 140px;
+	width: 240px;
+	height: 130px;
 }
 
 /*------WEBSITE CHANGES TO MOBILE-------*/
